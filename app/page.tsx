@@ -34,7 +34,7 @@ const photoMemories = [
   { src: "/photos/photo6.jpg", caption: "Soft sky birthday sparkle" }
 ];
 
-const balloonWords = ["Smile", "Joy", "Success", "Peace", "Happiness"];
+const balloonWords = ["Smile", "Joy", "Success", "Peace", "Happiness", "Love"];
 
 const fallbackPhoto =
   "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 450'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%23e8a9b5'/%3E%3Cstop offset='.52' stop-color='%23fff2ea'/%3E%3Cstop offset='1' stop-color='%23d8b6ad'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='600' height='450' fill='url(%23g)'/%3E%3Cg fill='none' stroke='%23fff' stroke-width='14' stroke-linecap='round' stroke-linejoin='round' opacity='.86'%3E%3Cpath d='M154 318l88-94 70 70 44-48 92 72'/%3E%3Ccircle cx='406' cy='136' r='38'/%3E%3Crect x='92' y='78' width='416' height='294' rx='34'/%3E%3C/g%3E%3Ctext x='300' y='404' text-anchor='middle' font-family='Arial' font-size='28' font-weight='700' fill='%238a4f57'%3EAdd your photo%3C/text%3E%3C/svg%3E";
@@ -410,7 +410,7 @@ function BalloonGame({ onNext }: ScreenProps) {
                   <>
                     <div
                       className={`h-24 w-20 rounded-[999px_999px_820px_820px] shadow-pastel sm:h-36 sm:w-28 ${
-                        ["bg-blush", "bg-lavender", "bg-sunshine", "bg-mint", "bg-[#eec0c8]"][index]
+                        ["bg-blush", "bg-lavender", "bg-sunshine", "bg-mint", "bg-[#eec0c8]", "bg-[#f3b8c2]"][index]
                       }`}
                     />
                     <span className="absolute bottom-2 h-10 w-px bg-[#8a4f57]/35 sm:h-12" />
